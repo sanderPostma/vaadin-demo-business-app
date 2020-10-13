@@ -117,11 +117,6 @@
       <artifactId>vaadin-testbench</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-      <groupId>com.vaadin</groupId>
-      <artifactId>vaadin-testbench</artifactId>
-      <scope>test</scope>
-    </dependency>
 
     <!-- Added to provide logging output as Flow uses -->
     <!-- the unbound SLF4J no-operation (NOP) logger implementation -->
