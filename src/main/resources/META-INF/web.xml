@@ -11,6 +11,14 @@
       <param-name>closeIdleSessions</param-name>
       <param-value>true</param-value>
     </init-param>
+    <init-param>
+      <param-name>project.basedir</param-name>
+      <param-value>${project.basedir}</param-value>
+    </init-param>
+    <init-param>
+      <param-name>vaadin.frontend.token.file</param-name>
+      <param-value>${project.basedir}/target/classes/META-INF/VAADIN/config/flow-build-info.json</param-value>
+    </init-param>
     <async-supported>true</async-supported>
   </servlet>
 
